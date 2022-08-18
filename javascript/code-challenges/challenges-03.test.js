@@ -41,7 +41,7 @@ For example, containsAnd(['panda', 'ran', 'and']) returns ['panda', 'and'].
 
 const containsAnd = (arr) => {
   // Solution code here...
-  let newArr = arr.filter(function (str) { return str.includes('and');});
+  let newArr = arr.filter((str) => str.includes('and'));
   return newArr;
 };
 
@@ -55,7 +55,7 @@ For example, oddValues([1,2,3]) returns [1,3].
 
 const oddValues = (arr) => {
   // Solution code here...
-  let newArr = arr.filter(num => num%2)
+  let newArr = arr.filter(num => num%2);
   return newArr;
 };
 
@@ -69,8 +69,7 @@ For example, notInFirstArray([1,2,3], [1,2,3,4]) returns [4].
 
 const notInFirstArray = (forbiddenValues, arr) => {
   // Solution code here...
-  let newArr = forbiddenValues.filter(arr.indexOf === -1);
-  return newArr;
+  return arr.filter(elm => !forbiddenValues.includes(elm));
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -179,6 +178,7 @@ const characters = [
 
 const getCharactersWithoutChildren = (arr) => {
   // Solution code here...
+  return arr.filter(char => !char.children);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -293,7 +293,7 @@ xdescribe('Testing challenge 7', () => {
   });
 });
 
-xdescribe('Testing challenge 8', () => {
+describe('Testing challenge 8', () => {
   test('It should return an array containing characters who do not have children', () => {
     expect(getCharactersWithoutChildren(characters)).toStrictEqual([ { name: 'Sansa', spouse: 'Tyrion', house: 'Stark' }, { name: 'Jon', spouse: null, house: 'Snow' } ]);
     expect(getCharactersWithoutChildren(characters).length).toStrictEqual(2);
