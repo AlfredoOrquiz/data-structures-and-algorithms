@@ -102,7 +102,7 @@ let starWarsData = [{
   gender: 'female'
 }];
 
-const returnNames = (arr) => 
+const returnNames = (arr) =>
   // Solution code here...
   arr.reduce((a,b) => {
     a.push(b.name);
@@ -119,6 +119,7 @@ Note: You must use reduce for this challenge. You may not use the built-in .reve
 
 const reversedString = (str) => {
   // Solution code here...
+  return str.split('').reduce((accumulator, currentValue) => currentValue + accumulator);
 };
 
 /* ------------------------------------------------------------------------------------------------
