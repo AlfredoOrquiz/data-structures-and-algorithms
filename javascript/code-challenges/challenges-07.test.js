@@ -86,7 +86,7 @@ const wordsToCharList = (arr) => {
   // Solution code here...
   let array = arr.split('');
   return array;
-};
+
 
 
 /* ------------------------------------------------------------------------------------------------
