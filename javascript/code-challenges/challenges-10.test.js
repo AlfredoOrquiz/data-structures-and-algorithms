@@ -133,13 +133,12 @@ const errands = [
 
 const howManyTreats = (arr) => {
   // Solution code here...
-  let sol;
   errands.map(store => {
     store.items.map(item => {
-      item.name === 'Treats' ? sol = item.quantity : '';
+      item.name === 'Treats' ? arr = item.quantity : '';
     });
   });
-  return sol;
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
