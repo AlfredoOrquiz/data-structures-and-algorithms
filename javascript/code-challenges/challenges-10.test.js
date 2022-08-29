@@ -28,15 +28,11 @@ return: 23
 ------------------------------------------------------------------------------------------------ */
 const findMax = (matrix) => {
   // Solution code here...
-  let max = matrix.map(arr => {arr.reduce((a,b) => {
-    if (b > a) {
-      a = b;
-    }
-    return a;
-    });
-  return arr;
+  let high = 0;
+  matrix.map(row => {
+    row.map(num => num > high ? high = num : num);
   });
-return max;
+  return high;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -55,6 +51,7 @@ return: 35
 ------------------------------------------------------------------------------------------------ */
 const totalSum = (matrix) => {
   // Solution code here...
+  return matrix.flat().reduce((current, previous) => current + previous, 0);
 };
 
 
@@ -82,7 +79,13 @@ const cookieStores = [firstPike, seaTac, seattleCenter, capHill, alkiBeach];
 
 const grandTotal = (stores) => {
   // Solution code here...
-
+  let salesArr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+  stores.forEach((store) => {
+    store.forEach((val, index) => {
+      salesArr[index] = salesArr[index] + val;
+    });
+  });
+  return salesArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -97,6 +100,14 @@ Write a function named salesData that uses forEach to iterate over the hourlySal
 
 const salesData = (hours, data) => {
   // Solution code here...
+  let sol = [];
+  data.forEach((hourTotal, index) => {
+    sol.push({
+      sales: `${hourTotal} cookies`,
+      time: `${hours[index]}`,
+    });
+  });
+  return sol;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -122,6 +133,13 @@ const errands = [
 
 const howManyTreats = (arr) => {
   // Solution code here...
+  let sol;
+  errands.map(store => {
+    store.items.map(item => {
+      item.name === 'Treats' ? sol = item.quantity : '';
+    });
+  });
+  return sol;
 };
 
 /* ------------------------------------------------------------------------------------------------
