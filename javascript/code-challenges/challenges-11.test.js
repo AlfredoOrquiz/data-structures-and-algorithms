@@ -20,7 +20,7 @@ Becomes:
 
 function transformToLis(obj){
   // Solution code here...
-  
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -131,6 +131,7 @@ let starWarsData = [{
 
 let findMaleAndFemale = (data) => {
   // Solution code here...
+  return data.filter(char => char.gender === 'male' || char.gender === 'female').map(char => char.name).join(' and ');
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -141,6 +142,7 @@ Write a function named findShortest that, given the Star Wars data from Challeng
 
 let findShortest = (data) => {
   // Solution code here...
+  return data.reduce((shortest, nextChar) => Number(shortest.height) < Number(nextChar.height) ? shortest : nextChar).name;
 };
 
 /* ------------------------------------------------------------------------------------------------
