@@ -33,7 +33,7 @@ class LinkedList {
     }
     return false;
   }
-  
+
   toString() {
     let current = this.head;
     let stringified = '';
