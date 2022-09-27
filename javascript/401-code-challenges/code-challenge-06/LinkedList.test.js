@@ -1,6 +1,6 @@
 'use strict';
 
-const LinkedList = require ('./LinkedListInsertion.js');
+const LinkedList = require ('./LinkedList.js');
 
 it('Can successfully add a node to the end of the linked list', () => {  let list = new LinkedList;  list.insert('c');  list.insert('b');  list.insert('a');  list.append('d');  expect(list.toString()).toEqual('{ a } -> { b } -> { c } -> { d } -> NULL');});
 
