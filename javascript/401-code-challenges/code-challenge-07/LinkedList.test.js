@@ -34,5 +34,5 @@ it('“Happy Path” where k is not at the end, but somewhere in the middle of t
   list.insert('a');
   list.append('b');
   list.append('c');
-  expect(list.kFromEnd(2)).toEqual('b');
+  expect(list.kFromEnd(1)).toEqual('b');
 });

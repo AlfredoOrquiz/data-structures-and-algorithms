@@ -37,7 +37,7 @@ class LinkedList {
     let current = this.head;
     let previousValue = this.head;
     let counter = 0;
-    for (let i = 0; i < k - 1; i++) {
+    for (let i = k; i > 0; i--) {
       current = current.next;
       if (!current) {
         return "Exception";
