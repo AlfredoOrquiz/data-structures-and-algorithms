@@ -1,22 +1,15 @@
 # Zipped Linked List
 
 ## Challenge Summary
-<!-- Description of the challenge -->
+Write a function called zip lists
+Arguments: 2 linked lists
+Return: New Linked List, zipped as noted below
+Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the the zipped list.
+Try and keep additional space down to O(1)
+You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
 
 ## Whiteboard Process
 ![](../Images/Challenge-08.jpg)
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-
-## Solution
-<!-- Show how to run your code, and examples of it in action -->
-
-## README for this challenge is complete
-       - [ ] Summary, Description, Approach & Efficiency, Solution
-       - [ ] Link to code
- - [ ] Feature tasks for this challenge are completed
- - [ ] Unit tests written and passing
-       - [ ] “Happy Path” - Expected outcome
-       - [ ] Expected failure
-       - [ ] Edge Case (if applicable/obvious)
+Worked with Jordan Yamada, Jeffrewy Smith, Rhea Carillo and Amy Pierce to solve this problem.
