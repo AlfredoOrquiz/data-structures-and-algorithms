@@ -6,8 +6,8 @@ Create a Stack class that has a top property. It creates an empty Stack when ins
 Create a Queue class that has a front property. It creates an empty Queue when instantiated.
 
 ## Whiteboard
-![](../Images/challenge-10-1.png)
-![](../Images/challenge-10-2.png)
+![Lab-10-UML](../Images/challenge-10-1.png)
+![Lab-10-UML](../Images/challenge-10-2.png)
 
 ## Approach & Efficiency
 I used trial and error, console logs, bing, google, stack overflow, and TA's.

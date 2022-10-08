@@ -2,8 +2,8 @@
 The challenge was to start with
 
 ## Whiteboard Process
-![](../Images/Challenge-1.png)
-![](../Images/Collaborated-Code.jpg)
+![Lab-1-UML](../Images/Challenge-1.png)
+![Lab-1-UML](../Images/Collaborated-Code.jpg)
 
 ## Approach & Efficiency
 How I apporached this is how I always apporach pretty much anything in life. I read, understand as much as I can, and then ask questions to what I don't understand. Then I just wrote the problem in English, and then translated in JavaScript.

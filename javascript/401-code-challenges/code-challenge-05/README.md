@@ -7,4 +7,4 @@ We are pretty much need to create arrays, and create a list of arrays.
 
 
 ## API
-![](../Images/Challenge-5.png)
+![Lab-5-UML](../Images/Challenge-5.png)

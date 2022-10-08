@@ -2,7 +2,7 @@
 What we want to hapen is whenever we submit a value, we want to return the value that is provided by the index, as shown on the white board.
 
 ## Whiteboard Process
-![](../Images/Challenge-7.jpg)
+![Lab-7-UML](../Images/Challenge-7.jpg)
 
 ## Approach & Efficiency
 I know that I needed an if statement, so I started writting a for loop with the if statements.

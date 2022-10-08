@@ -7,7 +7,7 @@ The code also needs to insert the arguments value, and the new value before the 
 Test - npm test LinkedList.test.js
 
 ## Image
-![](../Images/Challenge-6.jpg)
+![Lab-6-UML](../Images/Challenge-6.jpg)
 
 ## Contributions
 Shout out to Jordan Yamada and Jeffrey Smith
