@@ -24,5 +24,4 @@ Returns: Index in the collection for that key
 Console logs, bing, stackoverflow, reading Jeffreys code, as well as Brookes.
 
 ## API
-<!-- Description of each method publicly available in each of your hashtable -->
 ![Code-Challenge-30](../Images/Challenge-30.jpg)
