@@ -2,8 +2,8 @@
 
 const { LinkedList, zipLists } = require ('./LinkedList.js');
 
-function llSetUp(arr, ll) {  let newll = ll;  arr.forEach(value => {    newll.append(value);    console.log(newll.toString());  });  return newll;}
-describe('Testing Linked List Zip function', () => {  it('should create a new ll equal to null if both ll are empty', () => {    const ll1 = new LinkedList;    const ll2 = new LinkedList;    let list = zipLists(ll1, ll2);    expect(list.head.value).toEqual(null);  });
+function llSetUp(arr, ll) { let newll = ll;  arr.forEach(value => { newll.append(value); console.log(newll.toString()); }); return newll;}
+describe('Testing Linked List Zip function', () => {  it('should create a new ll equal to null if both ll are empty', () => { const ll1 = new LinkedList; const ll2 = new LinkedList; let list = zipLists(ll1, ll2); expect(list.head.value).toEqual(null); });
   it('should create a new ll equal to ll1 if ll2 is empty', () => {
     const ll1 = new LinkedList;
     const ll2 = new LinkedList;
